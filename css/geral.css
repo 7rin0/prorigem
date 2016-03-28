@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'champagne__limousinesregular';
+    src: url('champagne__limousines-webfont.eot');
+    src: url('champagne__limousines-webfont.eot?#iefix') format('embedded-opentype'),
+         url('champagne__limousines-webfont.woff') format('woff'),
+         url('champagne__limousines-webfont.ttf') format('truetype'),
+         url('champagne__limousines-webfont.svg#champagne__limousinesregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+	font-family: 'champagne__limousinesregular';
+	text-align:center;
+	color:#ffffff;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background:url("/imagens/fundo.png") #383431;
+	overflow:hidden;
+}
+
+p{
+	z-index:100000;
+}
+
+.bloco{
+	cursor:pointer;
+}
+
+html{
+	overflow:hidden;
+}
+
+/* CONTEUDOS LOGIN */
+#conteudo{
+	position:relative;
+	width:90%;
+	margin: 5% auto;
+	background:#615d5c;
+	padding:15px;
+	overflow:hidden;
+}
